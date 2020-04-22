@@ -1,5 +1,6 @@
 # start-tor-in-ubuntu
 You should in first download and install tor with tirminal
+
 Open the Linux terminal and enter the code below
 
 ```
