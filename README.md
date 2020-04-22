@@ -30,17 +30,16 @@ Bridge obfs4 IP:PORT HASH-OF-YOUR-OBFS4-BRIDGE
 (be sure to leave your own bridges and note that add "Bridge" before Bridge)
 for save this changes press Ctrl+o and press Enter and finally for Exit press Ctrl+x
 
-enter code below in terminal 
+enter code below in terminal to restart tor 
 ```
 sudo systemctl restart tor@default.service
 ```
 
-afer restart tor enter code below
-
+for see tor logs enter code below
 ```
 journalctl -exft Tor
 ```
-(this conmmand show you logs of tor)
+
 
 if you can see line like this ```Bootstrapped 100%: Done```
 you could connect to tor
